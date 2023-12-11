@@ -1,0 +1,32 @@
+
+#e {background-color:lightgrey;
+    opacity: 0.8 ;  
+    background-image: url("vitrola.jpg");
+    height: 300px; }
+#tit{
+    padding-top: 130px;
+    
+    ;
+}
+h1 {
+    color:black;
+    opacity: 1.0;
+    background-color: antiquewhite;
+}
+.ban{background-color: antiquewhite;}
+
+.item{border:1px solid;
+    background-color:073b4c ;
+    display:inline-block;
+    border-color:edf6f9 ;
+    padding-left: 60px ;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: antiquewhite;}
+#casa{border: 1px solid }
+
+

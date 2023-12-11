@@ -1,0 +1,43 @@
+body{
+    background-color:aliceblue;
+}
+input{
+    margin: 20px;
+
+}
+#vever{
+    width: 60px;
+    margin: 10px;
+    border: solid 5px #28a745;
+    
+}
+#entra{
+    width: 200px;
+    margin-left: 20px;
+    background-color: #28a745;
+}
+#exampleModalLabel{
+    color: #28a745;
+}
+img{
+width: 400px;
+
+
+}
+.h3{
+    margin-left: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#h1{
+    margin-left: 20px;
+}
+p{
+    margin-left: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.p{
+    font-size: 30px;
+}
