@@ -8,11 +8,22 @@ Projetos de Introdução a Ciência da Computação do Colégio Pedro II - Campu
 - Leslie Ali
 - Moisés Cardoso
 
+## [CloseAI](closeai/EmpresasEmpreseas.html)
+
+- Hytalo Luiz
+- Ramon Carlos
+
 ## [Pera Phone](peraphone/trabai%20de%20icc-1.html)
 
 - Artur Assis
 - Pedro Daniel
 - Wallace Cunha
+
+## [Teu Pai Lanches](teupai/empresa.html)
+
+- Pedro Henrique de Souza
+- Pedro Henrique Paixão
+- Tomás Gabriel
 
 ## [TheGreenCup](thegreencup/TheGreenCup2.html)
 
@@ -26,5 +37,5 @@ Projetos de Introdução a Ciência da Computação do Colégio Pedro II - Campu
 - Ana Luiza Moutinho
 - Victor de Medeiros
 - Victoria Pimentel
-- Vitória Pessanha Macena
+- Vitória Pessanha
 

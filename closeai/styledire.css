@@ -1,0 +1,198 @@
+/*Import Para Background*/
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-weight: 100;
+    background: radial-gradient(#1e777e,#165349);
+    -webkit-overflow-Y: hidden;
+    -moz-overflow-Y: hidden;
+    -o-overflow-Y: hidden;
+    overflow-y: hidden;
+    -webkit-animation: fadeIn 1 1s ease-out;
+    -moz-animation: fadeIn 1 1s ease-out;
+    -o-animation: fadeIn 1 1s ease-out;
+    animation: fadeIn 1 1s ease-out;
+  }
+  
+  /*Import Para Os Butões*/
+  
+    button {
+      position: relative;
+      background: rgb(114, 147, 168);
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: none;
+      letter-spacing: 0.1rem;
+      font-size: 1rem;
+      padding: 1rem 3rem;
+      transition: 0.2s;
+    }
+    
+    button:hover {
+      letter-spacing: 0.2rem;
+      padding: 1.1rem 3.1rem;
+      background: var(--clr);
+      background-repeat: repeat-y;
+      inset: 2px;
+      mask-repeat: repeat-x;
+    }
+    
+    button::before {
+      content: "";
+      position: absolute;
+      inset: 2px;
+      background: #022c44;
+      transition: all 0.5s;
+      mask-repeat: repeat-y;
+    }
+    
+    button span {
+      position: relative;
+      z-index: 1;
+      opacity: initial;
+    }
+    button i {
+      position: absolute;
+      inset: 0;
+      display: block;
+      position: absolute;
+      object-position: bottom;
+      font-family: monospace;
+    }
+    
+    button i::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 2px;
+      left: 80%;
+      top: -2px;
+      border: 2px solid var(--clr);
+      background: #272822;
+      transition: 0.2s;
+      mask-repeat: repeat-x;
+    }
+    
+    button:hover i::before {
+      width: 1611px;
+      left: 20%;
+      animation: move 3s infinite;
+      top: 0;
+      content: 'Seguir';
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      transition: all 0.5s;
+      mask-repeat: repeat-y;
+      opacity: calc(70%);
+      transform: scale(1.4);
+      text-transform: lowercase;
+      text-overflow: ellipsis;
+      font-size:20px;
+    }
+    
+    button i::after {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 2px;
+      left: 20%;
+      bottom: -2px;
+      border: 2px solid var(--clr);
+      background: #272822;
+      transition: 0.2s;
+      transform: rotate(45deg);
+      background-color: rgba(255,255,255,0);
+      mask-repeat: repeat-x;
+    }
+    
+    button:hover i::after {
+      mask-repeat: repeat-y;
+      width: 15px;
+      left: 80%;
+      animation: move 3s infinite;
+    }
+    
+    
+    @keyframes move {
+      0% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(5px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+    
+    @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
+    
+    div[class*=box] {
+      height: 33.33%;
+      width: 100%; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .box-1 { background-color: #5a1ca0; }
+    .box-2 { background-color: #3C3C3C; }
+    .box-3 { background-color: #243657; }
+    
+    .btn {
+      line-height: 50px;
+      height: 50px;
+      text-align: center;
+      width: 250px;
+      cursor: pointer;
+    }
+    
+    .btn-two {
+      color: #FFF;
+      transition: all 0.5s;
+      position: relative; 
+    }
+    .btn-two span {
+      z-index: 2; 
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%; 
+    }
+    .btn-two::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      transition: all 0.5s;
+      border: 1px solid rgba(255,255,255,0.2);
+      background-color: rgba(255,255,255,0.1);
+    }
+    .btn-two::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      transition: all 0.5s;
+      border: 1px solid rgba(255,255,255,0.2);
+      background-color: rgba(255,255,255,0.1);
+    }
+    .btn-two:hover::before {
+      transform: rotate(-45deg);
+      background-color: rgba(255,255,255,0);
+    }
+    .btn-two:hover::after {
+      transform: rotate(45deg);
+      background-color: rgba(255,255,255,0);
+    }
+    
